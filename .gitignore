@@ -1,0 +1,70 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build artifacts
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+
+# Test, coverage, and type-checking artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.mypy_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.code-workspace
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Anaconda project metadata
+anaconda_projects/.anaconda/
+anaconda_projects/.trash/
+
+
+# Files that just have to be excluded
+*.csv
+*.txt
+RT_IOT2022
